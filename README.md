@@ -43,7 +43,7 @@ SecretRoom is a completely free, peer-to-peer encrypted chat application built e
 
 Since SecretRoom is entirely self-contained, using it is incredibly simple:
 
-1. Download the HTML file (`SecretRoom_11.html`).
+1. Download the HTML file (`SecretRoom.html`).
 2. Open it in any modern browser (Chrome, Firefox, Safari, Edge).
 3. Generate a room code and securely share it with your peers.
 4. Start chatting!
@@ -52,7 +52,7 @@ Since SecretRoom is entirely self-contained, using it is incredibly simple:
 
 ## 📄 License
 
-© 2025 Shreyam Arya. All Rights Reserved.
+© 2026 Shreyam Arya. All Rights Reserved.
 
 - You MAY: View and study this code, and share it with proper attribution.
 - You MAY NOT: Use this commercially without written permission, distribute modified versions, remove or alter the copyright notice, or claim this as your own work.
