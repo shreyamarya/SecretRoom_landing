@@ -1,9 +1,16 @@
-# SecretRoom 🔐
+<div align="center">
+  <h1>SecretRoom 🔐 — Free Encrypted Private Chat</h1>
+  <p><b>AES-256 End-to-End Encrypted Peer-to-Peer Anonymous Chat Application</b></p>
+  
+  [![License](https://img.shields.io/badge/License-All_Rights_Reserved-red.svg)](#-license)
+  [![Tech](https://img.shields.io/badge/Tech-WebRTC%20%7C%20Vanilla%20JS%20%7C%20WebCrypto-blue.svg)](#-features)
+  
+  <p>
+    <b>Secure Messaging</b> • <b>No Account Chat</b> • <b>Self-Destructing Messages</b> • <b>Zero Server Storage</b>
+  </p>
+</div>
 
-**Private Chat Evolved.**
-AES-256 encrypted. No accounts. No data stored. Your messages exist only between you and your peers.
-
-SecretRoom is a free, peer-to-peer encrypted chat application built entirely in a single HTML file. It uses WebRTC for direct communication and the Web Crypto API for military-grade end-to-end encryption.
+SecretRoom is a completely free, peer-to-peer encrypted chat application built entirely in a single HTML file. It uses WebRTC for direct communication and the Web Crypto API for military-grade end-to-end encryption.
 
 ## 🌟 Features
 
@@ -28,7 +35,7 @@ SecretRoom is a free, peer-to-peer encrypted chat application built entirely in 
 
 - **XSS Prevention:** All user data is rendered safely via `textContent` and DOM methods. Zero `innerHTML` usage with user input.
 - **Content Security Policy:** Strict CSP header blocks injected scripts, iframing, and unauthorized resource loading.
-- **Input Sanitization:** Usernames strip non-alphanumeric chars. Messages are capped at 2000 chars. Images limited.
+- **Input Sanitization:** Usernames strip non-alphanumeric chars. Messages are capped at 2000 chars. Images limited to 5MB.
 - **Unique Salt Per Room:** PBKDF2 salt is derived from the room code itself, preventing rainbow table attacks across rooms.
 - **Authenticated Encryption:** AES-GCM mode detects any tampering with ciphertext. Modified messages fail decryption entirely.
 
@@ -36,7 +43,7 @@ SecretRoom is a free, peer-to-peer encrypted chat application built entirely in 
 
 Since SecretRoom is entirely self-contained, using it is incredibly simple:
 
-1. Download the HTML file (`SecretRoom.html`).
+1. Download the HTML file (`SecretRoom_11.html`).
 2. Open it in any modern browser (Chrome, Firefox, Safari, Edge).
 3. Generate a room code and securely share it with your peers.
 4. Start chatting!
@@ -49,3 +56,6 @@ Since SecretRoom is entirely self-contained, using it is incredibly simple:
 
 - You MAY: View and study this code, and share it with proper attribution.
 - You MAY NOT: Use this commercially without written permission, distribute modified versions, remove or alter the copyright notice, or claim this as your own work.
+
+---
+**Keywords / Tags:** `encrypted chat`, `private chat`, `secure messaging`, `end-to-end encryption`, `p2p chat`, `webrtc chat`, `anonymous chat app`, `self-destructing messages`, `aes-256`, `no server chat`, `javascript chat`, `single file app`
